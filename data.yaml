@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['football', 'player', 'referee']
+
+roboflow:
+  workspace: project
+  project: football-detector
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/project/football-detector/dataset/2
